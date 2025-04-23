@@ -39,6 +39,23 @@
    - การสร้างการโต้ตอบระหว่างการแสดงผลข้อมูล (Interactions)
    - การสร้าง Bookmarks และ Drillthrough
 
+## การติดตั้ง Power BI Desktop
+
+> **หมายเหตุ**: Power BI Desktop รองรับเฉพาะระบบปฏิบัติการ Windows เท่านั้น
+
+1. **ดาวน์โหลด Power BI Desktop**
+   - เข้าไปที่ [Microsoft Power BI Download](https://powerbi.microsoft.com/desktop/)
+   - คลิกที่ปุ่ม "Download"
+
+2. **ติดตั้ง Power BI Desktop**
+   - เปิดไฟล์ที่ดาวน์โหลดมา
+   - ทำตามขั้นตอนการติดตั้ง
+   - รอจนกระทั่งการติดตั้งเสร็จสมบูรณ์
+
+3. **ตรวจสอบการติดตั้ง**
+   - เปิด Power BI Desktop จากเมนูเริ่มต้น
+   - หน้าต่างแรกของ Power BI Desktop ควรจะปรากฏขึ้น
+
 ## แบบฝึกหัดและตัวอย่าง
 
 ### 1. การนำเข้าและปรับแต่งข้อมูลจากไฟล์ Excel/CSV
