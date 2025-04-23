@@ -206,13 +206,13 @@ df = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
 print("Pandas DataFrame:\n", df)
 
 # ทดสอบ Matplotlib
+import matplotlib as mpl
 import matplotlib.pyplot as plt
-print("Matplotlib version:", plt.__version__)
+print("Matplotlib version:", mpl.__version__) 
 plt.plot([1, 2, 3, 4], [1, 4, 9, 16])
 plt.title('Simple Plot')
 plt.show()
 ```
-
 
 
 ## สรุป
