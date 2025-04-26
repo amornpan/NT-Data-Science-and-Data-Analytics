@@ -131,14 +131,14 @@
 - [วันที่2-บ่าย.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่2-บ่าย.ipynb)
 
 ### วันที่ 3 - เช้า
-- [วันที่3-เช้า.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-เช้า.ipynb)
+- [วันที่3-เช้า.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-เช้า/วันที่3-เช้า.ipynb)
 
 ### วันที่ 3 - บ่าย
-- [วันที่3-บ่าย-1-แนะนำกรณีศึกษา.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-บ่าย-1-แนะนำกรณีศึกษา.ipynb)
-- [วันที่3-บ่าย-2-การเตรียมข้อมูล.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-บ่าย-2-การเตรียมข้อมูล.ipynb)
-- [วันที่3-บ่าย-3-การวิเคราะห์ยอดขายและกำไร.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-บ่าย-3-การวิเคราะห์ยอดขายและกำไร.ipynb)
-- [วันที่3-บ่าย-4-การวิเคราะห์ข้อมูลตามร้านค้าและภูมิภาค.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-บ่าย-4-การวิเคราะห์ข้อมูลตามร้านค้าและภูมิภาค.ipynb)
-- [วันที่3-บ่าย-5-การวิเคราะห์พฤติกรรมลูกค้า.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-บ่าย-5-การวิเคราะห์พฤติกรรมลูกค้า.ipynb)
-- [วันที่3-บ่าย-6-การวิเคราะห์ประสิทธิภาพสินค้า.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/วันที่3-บ่าย-6-การวิเคราะห์ประสิทธิภาพสินค้า.ipynb)
+- [วันที่3-บ่าย-1-แนะนำกรณีศึกษา.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-บ่าย-1-แนะนำกรณีศึกษา.ipynb)
+- [วันที่3-บ่าย-2-การเตรียมข้อมูล.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-บ่าย-2-การเตรียมข้อมูล.ipynb)
+- [วันที่3-บ่าย-3-การวิเคราะห์ยอดขายและกำไร.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-บ่าย-3-การวิเคราะห์ยอดขายและกำไร.ipynb)
+- [วันที่3-บ่าย-4-การวิเคราะห์ข้อมูลตามร้านค้าและภูมิภาค.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-บ่าย-4-การวิเคราะห์ข้อมูลตามร้านค้าและภูมิภาค.ipynb)
+- [วันที่3-บ่าย-5-การวิเคราะห์พฤติกรรมลูกค้า.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-บ่าย-5-การวิเคราะห์พฤติกรรมลูกค้า.ipynb)
+- [วันที่3-บ่าย-6-การวิเคราะห์ประสิทธิภาพสินค้า.ipynb](https://github.com/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-บ่าย-6-การวิเคราะห์ประสิทธิภาพสินค้า.ipynb)
 
 หมายเหตุ: หลักสูตรนี้เน้นการเรียนรู้แบบปฏิบัติจริง (Hands-on) ด้วย Google Colab โดยใช้ตัวอย่างที่เข้าใจง่าย ไม่มีคณิตศาสตร์ซับซ้อน เหมาะสำหรับผู้เริ่มต้นและผู้ที่ต้องการเรียนรู้การวิเคราะห์ข้อมูลแบบเข้าใจง่าย
