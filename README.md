@@ -121,7 +121,7 @@
 ### วันที่ 1 - เช้า
 - [01 แนะนำ Data Science](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-เช้า/01_แนะนำ_Data_Science.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-เช้า/01_แนะนำ_Data_Science.ipynb)
 - [02 ประเภทของข้อมูล](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-เช้า/02_ประเภทของข้อมูล.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-เช้า/02_ประเภทของข้อมูล.ipynb)
-- [03 การเตรียม Jupyter Notebook](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-เช้า/03_การเตรียม_Jupyter_Notebook.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-เช้า/03_การเตรียม_Jupyter_Notebook.ipynb)
+
 
 ### วันที่ 1 - บ่าย
 - [01 พื้นฐาน Python](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-บ่าย/01_พื้นฐาน_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่1-บ่าย/01_พื้นฐาน_Python.ipynb)
