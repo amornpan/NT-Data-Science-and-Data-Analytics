@@ -59,9 +59,92 @@
 └─────────────────────────────────────────────────────────────┘
 ```
 
+#### แผนภาพการจัดวางองค์ประกอบของ Dashboard
+
+```mermaid
+flowchart TD
+    subgraph "Dashboard Layout"
+    A[Header: ชื่อ Dashboard + ตัวกรองข้อมูล + ปุ่มนำทาง] --- B
+    
+    subgraph "Level 1: KPIs"
+    B[KPI 1: ยอดขายรวม] --- C[KPI 2: กำไรรวม]
+    C --- D[KPI 3: จำนวนลูกค้า]
+    D --- E[KPI 4: อัตราการเติบโต]
+    end
+    
+    B --- F
+    
+    subgraph "Level 2: แนวโน้มและการเปรียบเทียบ"
+    F[แผนภูมิเส้น: แนวโน้มยอดขายรายเดือน] --- G[แผนภูมิแท่ง: เปรียบเทียบตามหมวดหมู่]
+    end
+    
+    F --- H
+    
+    subgraph "Level 3: รายละเอียด"
+    H[ตารางรายละเอียด: ข้อมูลธุรกรรม]
+    end
+    
+    end
+    
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#e6f2ff,stroke:#333,stroke-width:2px
+    style C fill:#e6f2ff,stroke:#333,stroke-width:2px
+    style D fill:#e6f2ff,stroke:#333,stroke-width:2px
+    style E fill:#e6f2ff,stroke:#333,stroke-width:2px
+    style F fill:#f2e6ff,stroke:#333,stroke-width:2px
+    style G fill:#f2e6ff,stroke:#333,stroke-width:2px
+    style H fill:#ffebcc,stroke:#333,stroke-width:2px
+```
+
 ### 2. การเลือกรูปแบบการแสดงผลที่เหมาะสม
 
 การเลือกรูปแบบการแสดงผลที่เหมาะสมกับประเภทข้อมูลช่วยให้ผู้ใช้เข้าใจข้อมูลได้ดียิ่งขึ้น
+
+#### แผนภาพช่วยเลือกประเภทกราฟให้เหมาะสมกับข้อมูล
+
+```mermaid
+flowchart TD
+    A[ต้องการแสดงอะไร?] --> B{เปรียบเทียบค่า<br>ระหว่างหมวดหมู่?}
+    B -->|ใช่| C{จำนวนหมวดหมู่?}
+    C -->|น้อย| D[แผนภูมิแท่ง<br>Bar Chart]
+    C -->|มาก| E[แผนภูมิแท่งแนวนอน<br>Horizontal Bar Chart]
+    
+    B -->|ไม่| F{แสดงแนวโน้ม<br>ตามเวลา?}
+    F -->|ใช่| G{ต้องการเน้น<br>ปริมาณรวม?}
+    G -->|ใช่| H[แผนภูมิพื้นที่<br>Area Chart]
+    G -->|ไม่| I[แผนภูมิเส้น<br>Line Chart]
+    
+    F -->|ไม่| J{แสดงสัดส่วน<br>ของทั้งหมด?}
+    J -->|ใช่| K{จำนวนหมวดหมู่<br>น้อยกว่า 6?}
+    K -->|ใช่| L[แผนภูมิวงกลม<br>Pie Chart]
+    K -->|ไม่| M[แผนภูมิแท่ง<br>Bar Chart]
+    
+    J -->|ไม่| N{ข้อมูลมีพิกัด<br>ภูมิศาสตร์?}
+    N -->|ใช่| O[แผนที่<br>Map]
+    
+    N -->|ไม่| P{ศึกษาความสัมพันธ์<br>ระหว่างตัวแปร?}
+    P -->|ใช่| Q[แผนภูมิกระจาย<br>Scatter Plot]
+    P -->|ไม่| R[ตาราง<br>Table]
+    
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#eeac99,stroke:#333,stroke-width:2px
+    style C fill:#e06377,stroke:#333,stroke-width:2px
+    style D fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style E fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style F fill:#eeac99,stroke:#333,stroke-width:2px
+    style G fill:#e06377,stroke:#333,stroke-width:2px
+    style H fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style I fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style J fill:#eeac99,stroke:#333,stroke-width:2px
+    style K fill:#e06377,stroke:#333,stroke-width:2px
+    style L fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style M fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style N fill:#eeac99,stroke:#333,stroke-width:2px
+    style O fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style P fill:#eeac99,stroke:#333,stroke-width:2px
+    style Q fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style R fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+```
 
 #### 2.1 การเปรียบเทียบค่า
 - **แผนภูมิแท่ง (Bar Chart)**: เหมาะสำหรับเปรียบเทียบค่าระหว่างหมวดหมู่ต่างๆ
@@ -169,6 +252,32 @@
 - ปรับการนำเสนอให้เหมาะสมกับกลุ่มเป้าหมาย
 
 ## ขั้นตอนการสร้าง Dashboard
+
+### แผนภาพแสดงกระบวนการสร้าง Dashboard
+
+```mermaid
+graph LR
+    A[1. กำหนดวัตถุประสงค์<br>และผู้ใช้เป้าหมาย] --> B[2. รวบรวมและ<br>เตรียมข้อมูล]
+    B --> C[3. วาง KPI Cards<br>ไว้ด้านบน]
+    C --> D[4. กำหนดพื้นที่<br>การทำงาน]
+    D --> E[5. ตั้งค่าพื้นหลัง<br>และธีมสี]
+    E --> F[6. เพิ่มแผนภูมิ<br>แนวโน้มและเปรียบเทียบ]
+    F --> G[7. เพิ่มตาราง<br>รายละเอียด]
+    G --> H[8. ตั้งค่าตัวกรอง<br>และปฏิสัมพันธ์]
+    H --> I[9. ทดสอบและ<br>ปรับปรุง]
+    I --> J[10. เผยแพร่และ<br>ติดตามผล]
+
+    style A fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style B fill:#f9d5e5,stroke:#333,stroke-width:2px
+    style C fill:#eeac99,stroke:#333,stroke-width:2px
+    style D fill:#eeac99,stroke:#333,stroke-width:2px
+    style E fill:#eeac99,stroke:#333,stroke-width:2px
+    style F fill:#e06377,stroke:#333,stroke-width:2px,color:#fff
+    style G fill:#e06377,stroke:#333,stroke-width:2px,color:#fff
+    style H fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style I fill:#c83349,stroke:#333,stroke-width:2px,color:#fff
+    style J fill:#5b9aa0,stroke:#333,stroke-width:2px,color:#fff
+```
 
 ### 1. วาง KPI cards ไว้ด้านบน
 - เลือก KPI ที่สำคัญที่สุด 3-5 รายการ
