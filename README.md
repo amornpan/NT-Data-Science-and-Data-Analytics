@@ -133,7 +133,7 @@
 
 ### วันที่ 2 - บ่าย
 - [01 Data Visualization ด้วย Python](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่2-บ่าย/01_Data_Visualization_ด้วย_Python.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่2-บ่าย/01_Data_Visualization_ด้วย_Python.ipynb)
-- [02 การใช้งาน Power BI](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/02_การใช้งาน_Power_BI.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/02_การใช้งาน_Power_BI.ipynb)
+- [02 การใช้งาน Power BI](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่2-บ่าย/02_การใช้งาน_Power_BI.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่2-บ่าย/02_การใช้งาน_Power_BI.ipynb)
 
 ### วันที่ 3 - เช้า
 - [01 การสร้าง Dashboard](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-เช้า/01_การสร้าง_Dashboard.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/amornpan/NT-Data-Science-and-Data-Analytics/blob/master/labs/วันที่3-เช้า/01_การสร้าง_Dashboard.ipynb)
